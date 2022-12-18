@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <script src="app.js" type="module"></script>
+</head>
+<body class="box-border p-0 m-0" style="font-family: 'Lexend Deca', sans-serif;">
+    <h1 class="font-bold text-6xl mt-12 mb-12 flex justify-center">Dashboard</h1>
+    <div class="flex-row container w-4/5 mx-auto">
+        <div class="flex flex-row justify-center items-start flex-wrap gap-x-10 gap-y-12 mt-8">
+            <div class="flex flex-col shadow-lg shadow-slate-400/50 jusity-center text-center items-center w-80 h-80 rounded-2xl hover:scale-105 duration-300 ease-in-out border-solid border-2 border-sky-500">
+                <img alt="tempo" src="./icon/Tempo.png" class="object-cover w-48 h-48">
+                <h1 class="font-bold text-4xl">Temperature</h1>
+                <h1  id="temp" class="text-2xl font-bold">0</h1>
+            </div>
+            <div class="flex flex-col shadow-lg shadow-slate-400/50 jusity-center text-center items-center w-80 h-80 rounded-2xl hover:scale-105 duration-300 ease-in-out border-solid border-2 border-sky-500">
+                <img alt="Humidity" src="./icon/humidity.png" class="object-cover mt-12  w-36  h-36">
+                <h1 class="font-bold text-4xl">Humidity</h1>
+                <h1 id="hum" class="text-2xl font-bold">0</h1>
+            </div>
+            <div class="flex flex-col shadow-lg shadow-slate-400/50 jusity-center text-center items-center w-80 h-80 rounded-2xl hover:scale-105 duration-300 ease-in-out border-solid border-2 border-sky-500">
+                <img alt="HeatIndex" src="./icon/fire.png" class="object-cover mt-12  w-36  h-36">
+                <h1 class="font-bold text-4xl">Heat Index</h1>
+                <h1 id="heat" class="text-2xl font-bold">0</h1>
+            </div>
+            <div
+                class="flex flex-col shadow-xl shadow-slate-400/50 jusity-center text-center items-center w-80 h-80 rounded-2xl hover:scale-105 duration-300 ease-in-out border-solid border-2 border-sky-500">
+                <img alt="Light" src="./icon/sun.png" class="object-cover mt-12  w-36  h-36">
+                <h1 class="font-bold text-4xl">Light</h1>
+                <h1 id="light" class="text-2xl font-bold">0</h1>
+            </div>
+            <div
+                class="flex flex-col shadow-xl shadow-slate-400/50 jusity-center text-center items-center w-80 h-80 rounded-2xl hover:scale-105 duration-300 ease-in-out border-solid border-2 border-sky-500">
+                <img alt="Soil" src="./icon/soil.png" class="object-cover mt-12  w-36  h-36">
+                <h1 class="font-bold text-4xl">Soil</h1>
+                <h1 id="soil" class="text-2xl font-bold">0</h1>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr class="mx-24 mt-24">
+        <div class="flex flex-col items-center">
+            <div class=" italic font-bold mt-8 mb-8">Copyright © 2022. Arucha Khematharonon All rights reserved</div>
+        </div>
+    </footer>
+</body>
+</html>

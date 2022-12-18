@@ -1,4 +1,3 @@
-
 #define BLYNK_TEMPLATE_ID "TMPLkUtYQMLV"
 #define BLYNK_DEVICE_NAME "SmartFarm"
 #define BLYNK_AUTH_TOKEN "Mr8bPSdn1I_poEBOn78kkBtSujmfIeZu"

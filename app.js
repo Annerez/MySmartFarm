@@ -2,14 +2,14 @@
     import {getAnalytics} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
     import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
     const firebaseConfig = {
-        apiKey: "AIzaSyBhI5oYvb9WVDxGrWFRuKzHqhjz8D7UknI",
-    authDomain: "smartfarm-23892.firebaseapp.com",
-    databaseURL: "https://smartfarm-23892-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "smartfarm-23892",
-    storageBucket: "smartfarm-23892.appspot.com",
-    messagingSenderId: "145364417741",
-    appId: "1:145364417741:web:bf3de6c33c1e7660dfbd84",
-    measurementId: "G-L6GT79LLN6"
+        apiKey: "YOUR KEY HERE",
+    authDomain: "YOUR AUTH DOMAIN",
+    databaseURL: "YOUR DATABASE URL",
+    projectId: "YOUR PROJECT IDL",
+    storageBucket: "YOUR STROAGE BUCKET",
+    messagingSenderId: "YOUR MESSAGING SENSOR ID",
+    appId: "YOUR APP ID",
+    measurementId: "YOUR MEASUREMENT ID"
   };
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);

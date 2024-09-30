@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLkUtYQMLV"
-#define BLYNK_DEVICE_NAME "SmartFarm"
-#define BLYNK_AUTH_TOKEN "Mr8bPSdn1I_poEBOn78kkBtSujmfIeZu"
+#define BLYNK_TEMPLATE_ID "TEMPLATE ID"
+#define BLYNK_DEVICE_NAME "DEVICE NAME"
+#define BLYNK_AUTH_TOKEN "BLYNK AUTH TOKEN"
 #define BLYNK_PRINT Serial
 
 #include <FirebaseESP32.h>
@@ -12,7 +12,7 @@
 #include "DHT.h"
 #define DHTPIN 13    // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT22   // DHT 22
-#define LINE_TOKEN "rPWtaurbXiqcEyU8pJtmgSX0RqliyCu0yizy4b4oPIt"
+#define LINE_TOKEN "LINE TOKEN"
 #define LIGHTPIN 35
 #define SOILPIN 34
 #define WateringPin 27
